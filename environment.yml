@@ -1,0 +1,10 @@
+name: ftrack-connect-maya-publish-environment
+dependencies:
+- python=2.7
+- pip
+- pip:
+  - PySide
+- git:
+  - https://bitbucket.org/ftrack/ftrack-connect.git
+  - https://bitbucket.org/ftrack/ftrack-connect-maya-publish.git:
+    - python -m ftrack_connect
