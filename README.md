@@ -1,0 +1,1 @@
+# ftrack-connect-maya-publish-environment
